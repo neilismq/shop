@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="__wap2apptabbar.css"/>
+    <script src="__wap2apptabbar.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        .tab-item {
+            color: #999999;
+        }
+
+        .tab-item.active {
+            color: #ff6900;
+        }
+    </style>
+</head>
+<body>
+<script>
+    new TabBar({
+        list: [{
+            url: "https://www.example.com/",
+            text: "首页",
+            iconPath: "images/tab-bar/index.png",
+            selectedIconPath: "images/tab-bar/index-selected.png"
+        }, {
+            url: "https://www.example.com/product_category",
+            text: "分类",
+            iconPath: "images/tab-bar/product-category.png",
+            selectedIconPath: "images/tab-bar/product-category-selected.png"
+        }, {
+            url: "https://www.example.com/cart/list",
+            text: "购物车",
+            iconPath: "images/tab-bar/cart-list.png",
+            selectedIconPath: "images/tab-bar/cart-list-selected.png"
+        }, {
+            url: "https://www.example.com/member/index",
+            text: "会员中心",
+            iconPath: "images/tab-bar/member-index.png",
+            selectedIconPath: "images/tab-bar/member-index-selected.png"
+        }]
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/prepay/prepay",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "加载中",
+    "backgroundColor": "#eeeeee"
+  },
+  "debug": false
+}

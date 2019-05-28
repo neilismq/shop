@@ -1,0 +1,226 @@
+{
+  "global": {
+    "webviewParameter": {
+      "titleNView": {
+        "autoBackButton": true,
+        "titleColor": "#999999",
+        "backgroundColor": "#f7f7f7"
+      }
+    }
+  },
+  "pages": [
+    {
+      "webviewId": "__W2A__www_example_com",
+      "matchUrls": [
+        {
+          "href": "https://www.example.com"
+        },
+        {
+          "href": "https://www.example.com/"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "autoBackButton": false,
+          "type": "transparent",
+          "searchInput": {
+            "placeholderColor": "#999999",
+            "disabled": "true",
+            "borderRadius": "10px",
+            "backgroundColor": "rgba(255, 255, 255, 0.5)"
+          }
+        },
+        "scrollIndicator": "none",
+        "tabBar": {
+          "height": "50px",
+          "list": [
+            {
+              "url": "https://www.example.com/"
+            },
+            {
+              "url": "https://www.example.com/product_category"
+            },
+            {
+              "url": "https://www.example.com/cart/list"
+            },
+            {
+              "url": "https://www.example.com/member/index"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "webviewId": "product-category",
+      "matchUrls": [
+        {
+          "pathname": "/product_category"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "autoBackButton": false,
+          "searchInput": {
+            "placeholderColor": "#999999",
+            "disabled": true,
+            "borderRadius": "10px",
+            "backgroundColor": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "webviewId": "cart-list",
+      "matchUrls": [
+        {
+          "pathname": "/cart/list"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "autoBackButton": false
+        }
+      }
+    },
+    {
+      "webviewId": "member-index",
+      "matchUrls": [
+        {
+          "pathname": "/member/index"
+        },
+        {
+          "pathname": "W:/member/login*",
+          "search": "W:*redirectUrl=*%2Fmember%2Findex*"
+        },
+        {
+          "pathname": "W:/social_user_login*",
+          "search": "W:*redirectUrl=*%2Fmember%2Findex*"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "autoBackButton": false
+        }
+      }
+    },
+    {
+      "webviewId": "member-login",
+      "matchUrls": [
+        {
+          "pathname": "W:/member/login*"
+        }
+      ]
+    },
+    {
+      "webviewId": "social-user-login",
+      "matchUrls": [
+        {
+          "pathname": "W:/social_user_login*"
+        }
+      ]
+    },
+    {
+      "webviewId": "product-list",
+      "matchUrls": [
+        {
+          "pathname": "W:/product/list*"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "searchInput": {
+            "placeholderColor": "#999999",
+            "disabled": true,
+            "borderRadius": "10px",
+            "backgroundColor": "#ffffff"
+          },
+          "buttons": [
+            {
+              "type": "close",
+              "onclick": "javascript:window.plus.webview.getWebviewById('product-list').close()"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "webviewId": "product-search-input",
+      "matchUrls": [
+        {
+          "pathname": "/product/search_input"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "searchInput": {
+            "placeholderColor": "#999999",
+            "borderRadius": "10px",
+            "backgroundColor": "#ffffff"
+          },
+          "buttons": [
+            {
+              "type": "close",
+              "onclick": "javascript:window.plus.webview.getWebviewById('product-search-input').close()"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "webviewId": "product-search",
+      "matchUrls": [
+        {
+          "pathname": "/product/search"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "searchInput": {
+            "placeholderColor": "#999999",
+            "disabled": true,
+            "borderRadius": "10px",
+            "backgroundColor": "#ffffff"
+          },
+          "buttons": [
+            {
+              "type": "close",
+              "onclick": "javascript:window.plus.webview.getWebviewById('product-search').close()"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "webviewId": "product-detail",
+      "matchUrls": [
+        {
+          "pathname": "W:/product/detail/*"
+        }
+      ]
+    },
+    {
+      "webviewId": "store-index",
+      "matchUrls": [
+        {
+          "pathname": "W:/store/*"
+        }
+      ],
+      "webviewParameter": {
+        "titleNView": {
+          "searchInput": {
+            "placeholderColor": "#999999",
+            "disabled": true,
+            "borderRadius": "10px",
+            "backgroundColor": "#ffffff"
+          },
+          "buttons": [
+            {
+              "type": "close",
+              "onclick": "javascript:window.plus.webview.getWebviewById('store-index').close()"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

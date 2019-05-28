@@ -1,0 +1,244 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__W2A__www_example_com",
+  "name": "SHOP++",
+  "version": {
+    "name": "1.0.0",
+    "code": 10600
+  },
+  "description": "SHOP++网上商城系统是基于JavaEE技术的企业级电子商务平台系统，以其安全稳定、强大易用、高效专业等优势赢得了用户的广泛好评。SHOP++为大、中、小企业提供一个安全、高效、强大的电子商务解决方案，协助企业快速构建、部署和管理其电子商务平台，拓展企业销售渠道，突显电子商务商业价值，致力于推动JavaEE技术和电子商务行业的发展而不断努力。",
+  "icons": {
+    "72": "icon.png"
+  },
+  "launch_path": "https://www.example.com/",
+  "permissions": {
+    "Accelerometer": {},
+    "Audio": {},
+    "Cache": {
+      "description": "管理应用缓存"
+    },
+    "Camera": {},
+    "Console": {
+      "description": "跟踪调试输出日志"
+    },
+    "Contacts": {},
+    "Device": {},
+    "Downloader": {},
+    "Events": {
+      "description": "应用扩展事件"
+    },
+    "File": {},
+    "Gallery": {},
+    "Geolocation": {},
+    "Invocation": {},
+    "Orientation": {},
+    "Proximity": {},
+    "Storage": {},
+    "Uploader": {},
+    "Runtime": {},
+    "XMLHttpRequest": {},
+    "Zip": {},
+    "Barcode": {},
+    "Maps": {},
+    "Webview": {},
+    "NativeUI": {},
+    "Navigator": {},
+    "NativeObj": {},
+    "Push": {},
+    "OAuth": {},
+    "Statistic": {},
+    "Messaging": {},
+    "Bluetooth": {},
+    "Speech": {}
+  },
+  "plus": {
+    "splashscreen": {
+      "autoclose": true,
+      "waiting": false
+    },
+    "statusbar": {
+      "immersed": "none",
+      "background": "#F7F7F7",
+      "style": "dark"
+    },
+    "safearea": {
+      "background": "#F7F7F7",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "popGesture": "close",
+    "runmode": "normal",
+    "signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",
+    "distribute": {
+      "apple": {
+        "appid": "",
+        "mobileprovision": "",
+        "password": "",
+        "p12": "",
+        "devices": "universal",
+        "frameworks": [],
+        "urltypes": [
+          {
+            "urlidentifier": "net.shopxx.b2b2c.app",
+            "urlschemes": [
+              "shopxxb2b2c"
+            ]
+          }
+        ],
+        "privacyDescription": {
+          "NSMicrophoneUsageDescription": "用户是否使用麦克风",
+          "NSContactsUsageDescription": "用户是否使用通讯录",
+          "NSBluetoothPeripheralUsageDescription": "用户是否使用蓝牙",
+          "NSCalendarsUsageDescription": "用户是否使用日历",
+          "NSCameraUsageDescription": "用户是否使用摄像头",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "用户是否使用位置",
+          "NSPhotoLibraryUsageDescription": "用户是否允许读取相册",
+          "NSPhotoLibraryAddUsageDescription": "用户是否允许写入相册",
+          "NSLocationWhenInUseUsageDescription": "用户是否使用位置",
+          "NSLocationAlwaysUsageDescription": "用户是否使用位置"
+        }
+      },
+      "google": {
+        "packagename": "",
+        "keystore": "",
+        "password": "",
+        "aliasname": "",
+        "schemes": [
+          "shopxxb2b2c"
+        ],
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>"
+        ]
+      },
+      "orientation": [
+        "portrait-primary"
+      ],
+      "icons": {
+        "ios": {
+          "prerendered": true,
+          "auto": "",
+          "iphone": {
+            "normal": "",
+            "retina": "",
+            "retina7": "",
+            "retina8": "",
+            "spotlight-normal": "",
+            "spotlight-retina": "",
+            "spotlight-retina7": "",
+            "settings-normal": "",
+            "settings-retina": "",
+            "settings-retina8": "",
+            "app@2x": "icons/120x120.png",
+            "app@3x": "icons/180x180.png",
+            "notification@2x": "icons/40x40.png",
+            "notification@3x": "icons/60x60.png",
+            "settings@2x": "icons/58x58.png",
+            "settings@3x": "icons/87x87.png",
+            "spotlight@2x": "icons/80x80.png",
+            "spotlight@3x": "icons/120x120.png"
+          },
+          "ipad": {
+            "normal": "",
+            "retina": "",
+            "normal7": "",
+            "retina7": "",
+            "spotlight-normal": "",
+            "spotlight-retina": "",
+            "spotlight-normal7": "",
+            "spotlight-retina7": "",
+            "settings-normal": "",
+            "settings-retina": "",
+            "app": "icons/76x76.png",
+            "app@2x": "icons/152x152.png",
+            "notification": "icons/20x20.png",
+            "notification@2x": "icons/40x40.png",
+            "proapp@2x": "icons/167x167.png",
+            "settings": "icons/29x29.png",
+            "settings@2x": "icons/58x58.png",
+            "spotlight": "icons/40x40.png",
+            "spotlight@2x": "icons/80x80.png"
+          },
+          "appstore": "icons/icon.png"
+        },
+        "android": {
+          "mdpi": "icons/48x48.png",
+          "ldpi": "icons/48x48.png",
+          "hdpi": "icons/72x72.png",
+          "xhdpi": "icons/96x96.png",
+          "xxhdpi": "icons/144x144.png",
+          "xxxhdpi": "icons/192x192.png"
+        }
+      },
+      "splashscreen": {
+        "ios": {
+          "iphone": {
+            "default": "",
+            "retina35": "images/splash-screen/iphone/640x960.png",
+            "retina40": "images/splash-screen/iphone/640x1136.png",
+            "retina47": "images/splash-screen/iphone/750x1334.png",
+            "retina55": "images/splash-screen/iphone/1242x2208.png",
+            "retina55l": "",
+            "iphonex": "images/splash-screen/iphone/1125x2436.png",
+            "portrait-896h@2x": "images/splash-screen/iphone/828x1792.png",
+            "portrait-896h@3x": "images/splash-screen/iphone/1242x2688.png"
+          },
+          "ipad": {
+            "portrait": "",
+            "portrait-retina": "",
+            "landscape": "",
+            "landscape-retina": "",
+            "portrait7": "",
+            "portrait-retina7": "",
+            "landscape7": "",
+            "landscape-retina7": ""
+          }
+        },
+        "android": {
+          "mdpi": "",
+          "ldpi": "",
+          "hdpi": "images/splash-screen/android/480x762.png",
+          "xhdpi": "images/splash-screen/android/720x1242.png",
+          "xxhdpi": "images/splash-screen/android/1080x1882.png"
+        }
+      },
+      "plugins": {
+        "speech": {
+          "ifly": {}
+        },
+        "payment": {},
+        "share": {}
+      }
+    }
+  }
+}

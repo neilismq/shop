@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*
+ * Copyright 2008-2019 shopxx.net. All rights reserved.
+ * Support: http://www.shopxx.net
+ * License: http://www.shopxx.net/license
+ * 
+ * Style - Register
+ * Version: 6.1
+ */
+
+/* ---------- register ---------- */
+.register .main-header {
+	margin-bottom: 0;
+}
+
+.register main {
+	padding: 60px 0;
+    background: #f8f8f9 url(../images/register.png) repeat-x;
+}
+
+.register .panel {
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: none;
+}
+
+.register .panel .panel-heading {
+	padding: 0 20px;
+	border-image: -webkit-linear-gradient(left, #e8e8e8, #f8f8f8) 1;
+	border-image: -moz-linear-gradient(left, #e8e8e8, #f8f8f8) 1;
+	border-image: linear-gradient(left, #e8e8e8, #f8f8f8) 1;
+	border-width: 0 0 1px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.register .panel .panel-heading h1 {
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.register .panel .panel-body {
+	padding: 20px;
+}
+
+.register .panel .panel-footer {
+	padding: 20px;
+	border-image: -webkit-linear-gradient(left, #e8e8e8, #f8f8f8) 1;
+	border-image: -moz-linear-gradient(left, #e8e8e8, #f8f8f8) 1;
+	border-image: linear-gradient(left, #e8e8e8, #f8f8f8) 1;
+	border-width: 1px 0 0 0;
+	border-top: 1px solid #e8e8e8;
+}
